@@ -1,0 +1,132 @@
+<html>
+    
+<!-- Mirrored from levidio.com/motionpro/preview-banner.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Mar 2018 07:20:04 GMT -->
+<head>
+        <title>Banners Pack Preview - Levidio Motion PRO</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link href="../../netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+        <style>
+			.container{
+				width: 100%!important;
+				max-width: 100%!important;
+			}
+            .small {
+                -webkit-transform: scale(0.5);
+                -moz-transform: scale(0.5);
+                -o-transform: scale(0.5);
+                transform-origin: top center;
+                -webkit-transition: all 0.3s linear;
+                -moz-transition: all 0.3s linear;
+                -o-transition: all 0.3s linear;
+                cursor:zoom-in;
+            }
+
+            .big {
+                -webkit-transform: scale(1);
+                -moz-transform: scale(1);
+                -o-transform: scale(1);
+                transform-origin: top center;
+                -webkit-transition: all 0.3s linear;
+                -moz-transition: all 0.3s linear;
+                -o-transition: all 0.3s linear;
+                cursor:zoom-out;
+            }
+
+            #return-to-top {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background: rgb(0, 0, 0);
+                background: rgba(0, 0, 0, 0.7);
+                width: 50px;
+                height: 50px;
+                display: block;
+                text-decoration: none;
+                -webkit-border-radius: 35px;
+                -moz-border-radius: 35px;
+                border-radius: 35px;
+                display: none;
+                -webkit-transition: all 0.3s linear;
+                -moz-transition: all 0.3s ease;
+                -ms-transition: all 0.3s ease;
+                -o-transition: all 0.3s ease;
+                transition: all 0.3s ease;
+                z-index: 99999;
+            }
+            #return-to-top i {
+                color: #fff;
+                margin: 0;
+                position: relative;
+                left: 16px;
+                top: 13px;
+                font-size: 19px;
+                -webkit-transition: all 0.3s ease;
+                -moz-transition: all 0.3s ease;
+                -ms-transition: all 0.3s ease;
+                -o-transition: all 0.3s ease;
+                transition: all 0.3s ease;
+            }
+            #return-to-top:hover {
+                background: rgba(0, 0, 0, 0.9);
+            }
+            #return-to-top:hover i {
+                color: #fff;
+                top: 5px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+        <div class="container">
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 offset-sm-3">
+                    <div class="row">
+                        <div class="col-sm-6 text-center">
+                            Click Image To Enlarge
+                        </div>
+                        <div class="col-sm-6 text-center">
+                            <a href="javascript:window.open('index-2.html','_self').close();">
+                                <button class="btn btn-info btn-sm">Back To Sales Page</button>
+                            </a>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+			<img id="img" class="small img-fluid" src="img/preview/bannerpackfefull.jpg">
+
+        </div>
+
+
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript">
+            $("#img").on('click', function() {
+                $(this).toggleClass('small big');
+            });
+        </script>
+        <script type="text/javascript">
+            // ===== Scroll to Top ====
+            $(window).scroll(function() {
+                if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+                    $('#return-to-top').fadeIn(200);    // Fade in the arrow
+                } else {
+                    $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+                }
+            });
+            $('#return-to-top').click(function() {      // When arrow is clicked
+                $('body,html').animate({
+                    scrollTop : 0                       // Scroll to top of body
+                }, 500);
+            });
+        </script>
+    </body>
+
+<!-- Mirrored from levidio.com/motionpro/preview-banner.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Mar 2018 07:20:05 GMT -->
+</html>
