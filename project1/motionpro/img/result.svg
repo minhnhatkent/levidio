@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="6629 -62 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-result);
+      }
+
+      .cls-2 {
+        opacity: 0.6;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-result">
+      <rect x="6629" y="-62" width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="result" class="cls-1">
+    <g id="Group_93" data-name="Group 93" class="cls-2" transform="translate(6594 -115)">
+      <rect id="Rectangle_77" data-name="Rectangle 77" class="cls-3" width="60" height="15" rx="7.5" transform="translate(35 53)"/>
+      <rect id="Rectangle_79" data-name="Rectangle 79" class="cls-3" width="60" height="15" rx="7.5" transform="translate(35 83)"/>
+    </g>
+  </g>
+</svg>
