@@ -1,0 +1,160 @@
+#tribe-events-pg-template .event-thank-you h1 {
+  color: #5eabd5;
+}
+#tribe-events-pg-template .event-thank-you h4 {
+  color: #406e98;
+  text-transform: uppercase;
+}
+#tribe-events-pg-template .event-thank-you h3.entry-title,
+#tribe-events-pg-template .event-thank-you h5 {
+  font-size: 18px;
+  line-height: 1.3em;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-content {
+  padding: 0 10px;
+}
+#tribe-events-pg-template .event-thank-you .icon {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #a1a1a1;
+  height: 25px;
+  width: 25px;
+  border-radius: 2px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-right: 5px;
+  color: #a1a1a1;
+  background: #a1a1a1 no-repeat 2px 2px;
+  background-size: 20px;
+  transition: opacity .2s ease;
+}
+#tribe-events-pg-template .event-thank-you .icon:hover {
+  opacity: 0.7;
+}
+#tribe-events-pg-template .event-thank-you .icon.facebook {
+  background-image: url("https://blogs.constantcontact.com/wp-content/themes/roots/assets/img/facebook-icon.svg");
+}
+#tribe-events-pg-template .event-thank-you .icon.twitter {
+  background-image: url("https://blogs.constantcontact.com/wp-content/themes/roots/assets/img/twitter-icon.svg");
+}
+#tribe-events-pg-template .event-thank-you .icon.google-plus {
+  background-image: url("https://blogs.constantcontact.com/wp-content/themes/roots/assets/img/google-plus-icon.svg");
+}
+#tribe-events-pg-template .event-thank-you .icon.pinterest {
+  background-image: url("https://blogs.constantcontact.com/wp-content/themes/roots/assets/img/pinterest-icon.svg");
+}
+#tribe-events-pg-template .event-thank-you .icon.plus {
+  text-align: center;
+}
+#tribe-events-pg-template .event-thank-you .icon.plus:after {
+  content: "\0002B";
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-info p,
+#tribe-events-pg-template .event-thank-you .thank-you-info strong {
+  font-size: 24px;
+  font-weight: 300;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main {
+  padding-right: 45px;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main h4 {
+  display: block;
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  margin: 53px 0 20px;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main .thank-you-message {
+  font-style: italic;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main .entry-title {
+  margin-top: 0;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main .wp-post-image {
+  margin-top: 5px;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main .upcoming-event h4 {
+  background: none;
+  padding: 0;
+  font-size: 16px;
+  margin: 0 0 6px !important;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main .upcoming-event .event-information ul {
+  display: inline;
+  font-weight: 600;
+  list-style: none;
+  margin: 0;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main .upcoming-event .event-information ul li {
+  display: inline;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main .upcoming-event .event-information ul li a {
+  white-space: nowrap;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main .upcoming-event .event-information ul.date-info {
+  display: block;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main .upcoming-event .event-information ul a {
+  color: #606d78;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main .upcoming-event .event-information ul.tribe-events-type li:after {
+  content: ", ";
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main .upcoming-event .event-information ul.tribe-events-type li:last-child:after {
+  content: "";
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main .upcoming-event address a {
+  color: #606d78;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main .upcoming-event:after {
+  content: " ";
+  width: 100%;
+  height: 0;
+  margin: 30px 0 30px;
+  border-top: 1px solid #f1f1f1;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-main .upcoming-event:last-child:after {
+  margin: 0 0 30px;
+  border-top: none;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-sidebar h4 {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #f1f1f1;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-sidebar .suf {
+  background-color: #f1f1f1;
+  border: 2px solid #d1d1d1;
+  border-radius: 3px;
+  padding: 30px;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-sidebar .suf h3 {
+  color: #406e98;
+  margin: 0 0 20px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1em;
+  white-space: nowrap;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-sidebar .suf .input {
+  display: block;
+  margin-bottom: 15px;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-sidebar .suf .buy-now {
+  display: block;
+  margin-top: 15px;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-sidebar .presenter-image img {
+  max-width: 125px;
+  border-radius: 50%;
+  display: block;
+  float: none;
+}
+#tribe-events-pg-template .event-thank-you .thank-you-sidebar h5 {
+  font-family: 'Archer SSm A', 'Archer SSm B';
+  font-weight: 800;
+  font-style: normal;
+  margin: 15px 0 6px 0;
+}
